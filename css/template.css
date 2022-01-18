@@ -1,0 +1,58 @@
+.center {
+    display: block;
+    margin: auto;
+  }
+img{
+  vertical-align: middle;
+  max-width: 100%;
+}
+body {
+    background-color: #060951;
+    color: white;
+    /* font-family: 'Segoe UI'; */
+    margin: 0 auto;
+   }
+   
+a:link, a:visited, a:hover, a:active {
+    color: white;
+    padding: 10px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+  }
+
+#menu ul {
+    list-style-type: none;
+    text-align: center;
+}
+
+#menu li {
+    color: #f1f1f1;
+    float: left;
+    width: 120px;
+    height: 40px;
+    line-height: 40px;
+  }
+  .banner-text-1{
+    color: white;
+    font-size: 2rem;
+    text-transform: uppercase;
+  }
+  .banner-text-2{
+    color: yellow;
+    font-size: 5rem;
+    text-transform: uppercase;
+
+  }
+  .banner-text-3{
+    color: white;
+    font-size: 1.5rem;
+    text-transform: uppercase;
+  }
+  .banner-img{
+    position: absolute;
+    right: 0;
+    top: 0;
+    z-index: -1;
+    max-width: 50em;
+  }
